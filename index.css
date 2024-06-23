@@ -1,0 +1,61 @@
+* {
+   box-sizing: border-box;
+}
+body {
+   margin: 0;
+   padding: 0;
+   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+ }
+
+header {
+   padding: 30px 4% 10px;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background-color: #e6e6e6;
+   display: flex;
+   align-items: center;
+}
+h1 {
+   margin: 0; padding: 0;
+   font-size: 20px;
+}
+
+a {
+   text-decoration: none;
+   color: #4b4b4b;
+}
+
+ul {
+   list-style: none;
+   margin: 0;
+   display: flex;
+}
+
+nav {
+   margin: 0 0 0 auto;
+}
+
+li {
+  font-size: 15px;
+  padding: 5px 10px 15px 20px;
+}
+
+.center {
+  margin-right:auto;
+  margin-left:auto;
+  width:1200px;
+  background: url(https://previews.dropbox.com/p/thumb/ACTgB4-fIaHHRs8nAVYBzWc5TD-51WOx7lHVqBEsNn4ZY1tXdPYpqnwDzqYNeZCsnx9hXJe5bVNCBNzBQqNSkmQqPJoHAUGt9p9dqtaVytiXF47c4zEo04v4uAaZQvE9md9GVgVUoi-aDryMgiKX77hYngRK8o37dFCRBWssKQyiCvdz5Lrw-44CpROyRz5NbwrAkuyASr6FwUZUyBZbpZ6NAVyJVdgEu_Q2ef97JsfyuugIrOGEWwxpKUkx7sxP4hh7cjWUchyylR3ByVpJSf0J91D_M3YLyBzJ2jRfFAYRDYevP9JocexY7Eh0VQWJTsHdsekpvkl_M0riDCseAd6JdKRD-WzZnQu778i7iAMyVQ/p.jpeg);
+}
+
+.text1 {
+  margin-right:auto;
+  margin-left:auto;
+  text-align: center;
+  background-color: #fff;
+}
+
+.white {
+  text-emphasis-color: white;
+}
